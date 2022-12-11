@@ -1,0 +1,195 @@
+@media screen and (max-width: 1980px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  .footers {
+    display: flex;
+  }
+  .footer-one {
+    margin: 73px 0px 0px 170px;
+    width: 400px;
+  }
+  .h1-footer {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin: 40px 0px 0px 139px;
+  }
+  .h2-footer {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 16px 0px 160px 139px;
+  }
+  .img-grad::before {
+    opacity: 0;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    content: "";
+    transition: 0.4s;
+    box-shadow: 6px 9px 0px 4px #95e1d3;
+    background: rgb(252, 227, 138);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(252, 227, 138)), color-stop(100%, rgba(243, 129, 129, 0.7)));
+    background: linear-gradient(135deg, rgb(252, 227, 138) 0%, rgba(243, 129, 129, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fce38a", endColorstr="#f38181", GradientType=1 );
+  }
+  .img-grad:hover:before {
+    opacity: 1;
+  }
+  .img-grad:hover > .soc-block {
+    opacity: 1;
+  }
+  .soc-block {
+    position: absolute;
+    margin: 218px 0px 0px 81px;
+    display: flex;
+    opacity: 0;
+    transition: 1s;
+  }
+  .soc {
+    background-color: #fce38a;
+    margin: 0px 0px 0px 0px;
+    height: 45px;
+    width: 55px;
+    border: 0.5px solid #f38181;
+    transition: 1s;
+  }
+  .soc:hover {
+    background-color: #f38181;
+  }
+  .img-soc-first {
+    margin: 5px 0px 0px 6px;
+    width: 38px;
+    height: 33px;
+    position: absolute;
+    opacity: 1;
+    transition: 1s;
+  }
+  .img-soc-first:hover {
+    opacity: 0;
+  }
+  .img-soc-second {
+    margin: 5px 0px 0px 6px;
+    width: 38px;
+    height: 33px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+  }
+  .img-soc-second:hover {
+    opacity: 1;
+  }
+  .h1-footer-tw {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin: 40px 0px 0px 112px;
+  }
+  .h2-footer-tw {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 16px 0px 160px 139px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  .footers {
+    display: block;
+  }
+  .footer-one {
+    margin: 73px 0px 0px 15px;
+    width: 400px;
+  }
+  .h1-footer-one {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin: 40px 0px 0px 135px;
+  }
+  .h2-footer-one {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 16px 0px 160px 139px;
+  }
+  .h1-footer-two {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin: 40px 0px 0px 112px;
+  }
+  .h2-footer-two {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 16px 0px 160px 139px;
+  }
+  .h1-footer-three {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin: 40px 0px 0px 135px;
+  }
+  .h2-footer-three {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 16px 0px 160px 162px;
+  }
+  .img-grad::before {
+    opacity: 0;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    content: "";
+    transition: 0.4s;
+    box-shadow: 6px 9px 0px 4px #95e1d3;
+    background: rgb(252, 227, 138);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(252, 227, 138)), color-stop(100%, rgba(243, 129, 129, 0.7)));
+    background: linear-gradient(135deg, rgb(252, 227, 138) 0%, rgba(243, 129, 129, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fce38a", endColorstr="#f38181", GradientType=1 );
+  }
+  .img-grad:hover:before {
+    opacity: 1;
+  }
+  .img-grad:hover > .soc-block {
+    opacity: 1;
+  }
+  .soc-block {
+    position: absolute;
+    margin: 218px 0px 0px 81px;
+    display: flex;
+    opacity: 0;
+    transition: 1s;
+    flex-wrap: wrap;
+  }
+  .soc {
+    background-color: #fce38a;
+    margin: 0px 0px 0px 0px;
+    height: 45px;
+    width: 55px;
+    border: 0.5px solid #f38181;
+    transition: 1s;
+  }
+  .soc:hover {
+    background-color: #f38181;
+  }
+  .img-soc-first {
+    margin: 5px 0px 0px 6px;
+    width: 38px;
+    height: 33px;
+    position: absolute;
+    opacity: 1;
+    transition: 1s;
+  }
+  .img-soc-first:hover {
+    opacity: 0;
+  }
+  .img-soc-second {
+    margin: 5px 0px 0px 6px;
+    width: 38px;
+    height: 33px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+  }
+  .img-soc-second:hover {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=team.css.map */
